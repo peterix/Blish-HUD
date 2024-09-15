@@ -215,12 +215,6 @@ Guild Wars 2 et Blish HUD.</value>
   <data name="SelfUpdate_UpdateToReleaseMenuStripText" xml:space="preserve">
     <value>Mettre à jour vers la version v{0}</value>
   </data>
-  <data name="Setting_AudioDevice_Description" xml:space="preserve">
-    <value>Détermine la sortie audio utilisée par Blish HUD. Gw2OutputDevice s'ajuste lui même à ce que GW2 utilise.</value>
-  </data>
-  <data name="Setting_AudioDevice_DisplayName" xml:space="preserve">
-    <value>Système de sortie audio</value>
-  </data>
   <data name="Setting_CloseWindowOnEscape_Description" xml:space="preserve">
     <value>Ferme la fenêtre Blish lors d'un appui sur la touche echap alors que celle-ci est ciblée.</value>
   </data>
@@ -245,25 +239,7 @@ Guild Wars 2 et Blish HUD.</value>
   <data name="Setting_ToggleBlishWindowKeybind_DisplayName" xml:space="preserve">
     <value>Activer la fenêtre Blish HUD</value>
   </data>
-  <data name="Setting_UseGameVolume_Description" xml:space="preserve">
-    <value>Lorsque cette option est activée, Blish HUD ajuste son volume au volume du jeu.</value>
-  </data>
-  <data name="Setting_UseGameVolume_DisplayName" xml:space="preserve">
-    <value>Utiliser le volume du jeu</value>
-  </data>
-  <data name="Setting_Volume_Description" xml:space="preserve">
-    <value>Détermine le volume de Blish HUD. N'a d'effet que lorsque 'Utiliser le volume du jeu' est désactivé.</value>
-  </data>
-  <data name="Setting_Volume_DisplayName" xml:space="preserve">
-    <value>Volume</value>
-  </data>
   <data name="SelfUpdate_NewPrereleaseAvailable" xml:space="preserve">
     <value>Nouvelle version bêta disponible</value>
-  </data>
-  <data name="Setting_MuteIfNoGameAudio_Description" xml:space="preserve">
-    <value>Lorsque cette option est activée, Blish HUD se met en sourdine lorsque le jeu n'émet aucun son.</value>
-  </data>
-  <data name="Setting_MuteIfNoGameAudio_DisplayName" xml:space="preserve">
-    <value>Muet lorsque le son du jeu est coupé.</value>
   </data>
 </root>

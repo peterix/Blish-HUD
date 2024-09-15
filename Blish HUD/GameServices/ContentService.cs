@@ -124,29 +124,7 @@ namespace Blish_HUD {
         private int _playRemainingAttempts = 3;
 
         public void PlaySoundEffectByName(string soundName) {
-            if (_playRemainingAttempts <= 0) {
-                // We keep failing to play sound effects - don't even bother
-                return;
-            }
-
-            if (GameService.GameIntegration.Audio.AudioDevice == null) {
-                // No device is set yet or there isn't one to use
-                return;
-            }
-
-            try {
-                const string SOUND_EFFECT_FILE_EXTENSION = ".wav";
-                var          filePath                    = soundName + SOUND_EFFECT_FILE_EXTENSION;
-
-                if (_audioDataReader.FileExists(filePath)) {
-                    SoundEffect.FromStream(_audioDataReader.GetFileStream(filePath)).Play(GameService.GameIntegration.Audio.Volume, 0, 0);
-                }
-
-                _playRemainingAttempts = 3;
-            } catch (Exception ex) {
-                _playRemainingAttempts--;
-                Logger.Warn(ex, "Failed to play sound effect.");
-            }
+            return;
         }
 
         private static string RefPath => ApplicationSettings.Instance.RefPath ?? REF_FILE;
